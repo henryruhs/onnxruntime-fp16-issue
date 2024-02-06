@@ -1,0 +1,6 @@
+dlib
+numpy==1.26.2
+onnx==1.15.0
+onnxruntime==1.17.0
+opencv-python==4.8.1.78
+onnxconverter_common
