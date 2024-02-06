@@ -4,11 +4,11 @@
 
 The lack of FP16 supports causes different results depending on the integration:
 
-## Distorted face
+## Distorted face (cuda)
 
 ![Broken1](https://raw.githubusercontent.com/henryruhs/onnxruntime-fp16-issue/master/examples/output-broken1.jpg?sanitize=true)
 
-## Face box being black
+## Face box being black (cpu)
 
 ![Broken2](https://raw.githubusercontent.com/henryruhs/onnxruntime-fp16-issue/master/examples/output-broken2.jpg?sanitize=true)
 
