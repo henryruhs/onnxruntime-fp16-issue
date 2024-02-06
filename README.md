@@ -4,12 +4,13 @@
 
 The lack of FP16 supports causes different results depending on the integration:
 
-1. Distorted face
-1. Complete frame being black
-1. Face box being black
+## Distorted face
 
+![Broken1](https://raw.githubusercontent.com/henryruhs/onnxruntime-fp16-issue/master/examples/output-broken1.jpg?sanitize=true)
 
-![Broken3](https://raw.githubusercontent.com/henryruhs/onnxruntime-fp16-issue/master/examples/output-broken3.jpg?sanitize=true)
+## Face box being black
+
+![Broken2](https://raw.githubusercontent.com/henryruhs/onnxruntime-fp16-issue/master/examples/output-broken1.jpg?sanitize=true)
 
 
 # Installation
