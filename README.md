@@ -1,5 +1,13 @@
 > The converted 16 floating point version of the `inswapper_128.onnx` model does not work since `onnxruntime==1.17.0` - it does not depend on GPU or CPU.
 
+# Problem
+
+The lack of FP16 supports causes different results depending on the integration:
+
+1. Distorted face
+1. Complete frame being black
+1. Face box being black
+
 
 # Installation
 
