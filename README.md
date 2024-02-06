@@ -1,4 +1,4 @@
-> The converted version of the inswapper model does not work with onnxruntime 1.17.0 - it does not depend on GPU or CPU.
+> The converted 16 floating point version of the `inswapper_128.onnx` model does not work since `onnxruntime==1.17.0` - it does not depend on GPU or CPU.
 
 
 # Installation
