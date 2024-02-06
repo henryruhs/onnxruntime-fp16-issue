@@ -9,6 +9,9 @@ The lack of FP16 supports causes different results depending on the integration:
 1. Face box being black
 
 
+![Broken3](https://raw.githubusercontent.com/henryruhs/onnxruntime-fp16-issue/master/examples/output-broken3.jpg?sanitize=true)
+
+
 # Installation
 
 ## 1. Download the models
