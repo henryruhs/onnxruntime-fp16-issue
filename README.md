@@ -10,7 +10,7 @@ The lack of FP16 supports causes different results depending on the integration:
 
 ## Face box being black
 
-![Broken2](https://raw.githubusercontent.com/henryruhs/onnxruntime-fp16-issue/master/examples/output-broken1.jpg?sanitize=true)
+![Broken2](https://raw.githubusercontent.com/henryruhs/onnxruntime-fp16-issue/master/examples/output-broken2.jpg?sanitize=true)
 
 
 # Installation
