@@ -52,3 +52,8 @@ Run float 16:
 ```
 python run.py --use-fp16
 ```
+
+
+# Replicate
+
+Feel free to convert it yourself using `convert_fp16.py`. You need to disable the validation inside `auto_convert_mixed_precisio` code to make it pass.

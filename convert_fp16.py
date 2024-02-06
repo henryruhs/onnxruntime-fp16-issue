@@ -7,7 +7,6 @@ fp16_model_path = "models/inswapper_128_fp16_new.onnx"
 
 
 model = onnx.load(original_model_path)
-# does not work
 #model_fp16 = float16.convert_float_to_float16(model, keep_io_types = True)
 
 source_tensor = np.random.rand(1, 512).astype(np.float32)
@@ -19,6 +18,5 @@ feed_dict =\
     'target': target_tensor
 }
 
-# only works by disabling the 3 x validations in the onnxruntime code
 model_fp16 = auto_convert_mixed_precision(model, feed_dict, rtol=0.01, atol=0.001, keep_io_types=True)
 onnx.save(model_fp16, fp16_model_path)
