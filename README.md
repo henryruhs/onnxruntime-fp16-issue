@@ -1,3 +1,6 @@
+> The converted version of the inswapper model does not work with onnxruntime 1.17.0 - it does not depend on GPU or CPU.
+
+
 # Installation
 
 ## 1. Download the models
