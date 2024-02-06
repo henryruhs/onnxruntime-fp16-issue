@@ -56,4 +56,4 @@ python run.py --use-fp16
 
 # Replicate
 
-Feel free to convert it yourself using `convert_fp16.py`. You need to disable the validation inside `auto_convert_mixed_precisio` code to make it pass.
+Feel free to convert it yourself using `convert_fp16.py`. You need to disable the validation inside `venv/lib/python3.11/site-packages/onnxconverter_common/auto_mixed_precision.py` code to make it pass.
